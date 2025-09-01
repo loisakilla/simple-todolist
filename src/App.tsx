@@ -24,6 +24,7 @@ export default function App() {
     animatorRef.current?.fly(label, { left: from.left, top: from.top, width: from.width, height: from.height }, to);
   }
 
+
   function submit() {
     const title = text.trim();
     if (title) {
